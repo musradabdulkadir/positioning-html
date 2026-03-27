@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <style>
+        body{
+            margin: 0px;
+        }
+
+        header {
+            padding: 10px;
+            display: flex;
+            background-color: rgb(207, 143, 143);
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            position: sticky;
+            top: 0px;
+            z-index: 1000;
+        }
+
+        ul {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+            text-align: center;
+        }
+
+        .profile {
+            font-size: 30px;
+            position: relative;
+        }
+
+        .noti {
+            font-size: 15px;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>COMPANY</h1>
+        <nav>
+            <ul>
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>CONTACT US</li>
+                <li>FOLLOW</li>
+            </ul>
+        </nav>
+        <div class="profile">
+            <span>👤</span>
+            <div class="noti">🔴</div>
+        </div>
+    </header>
